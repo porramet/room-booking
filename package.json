@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "type": "commonjs",
+    "scripts": {
+  "dev": "webpack --config webpack.mix.cjs",
+  "prod": "webpack --config webpack.mix.cjs --mode production"
+   }, 
+
+    "devDependencies": {
+        "axios": "^1.7.4",
+        "laravel-mix": "^6.0.49",
+        "postcss": "^8.4.32",
+        "sass": "^1.59.0",
+        "sass-loader": "^12.6.0"
+    }
+}
